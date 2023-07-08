@@ -29,7 +29,7 @@ function clicker()
 {
      y = randomGenerator();
     
-    // console.log(x);
+    console.log(x);
     while(x==y)
     {
         y=randomGenerator();
