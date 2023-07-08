@@ -39,15 +39,12 @@ function clicker()
     
     
     
-     quoteText = document.querySelector('.quote');
-     authourText = document.querySelector('.author');
-     const button = document.querySelector("#button");
+     quoteText = document.querySelector('#quote').textContent = quote[y];
+     authourText = document.querySelector('#author').textContent = author[y];;
     
-    button.addEventListener("click" , function(){
-        quoteText.textContent = quote[y]});
-        button.addEventListener("click" , function(){
-            authourText.textContent = author[y];
-    })
+    
+   
+   
 
      x=y
      
