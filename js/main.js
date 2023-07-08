@@ -22,31 +22,31 @@ function randomGenerator () {
 
 
 
-var x=-1 ;
-var y;
+var current=-1 ;
+var random;
 
 function clicker()
 {
-     y = randomGenerator();
+     random = randomGenerator();
     
-    console.log(x);
-    while(x==y)
+    
+    while(current==random)
     {
-        y=randomGenerator();
+        random=randomGenerator();
     }
     
-    console.log(y);
+    console.log(random);
     
     
     
-     quoteText = document.querySelector('#quote').textContent = quote[y];
-     authourText = document.querySelector('#author').textContent = author[y];;
+     quoteText = document.querySelector('#quote').textContent = quote[random];
+     authourText = document.querySelector('#author').textContent = author[random];;
     
     
    
    
 
-     x=y
+     current=random
      
 
 }
