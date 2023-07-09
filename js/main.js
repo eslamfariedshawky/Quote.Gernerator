@@ -25,8 +25,7 @@ function randomGenerator () {
 var current=-1 ;
 var random;
 
-function clicker()
-{
+
      random = randomGenerator();
     
     
@@ -49,7 +48,7 @@ function clicker()
      current=random
      
 
-}
+
 
 
 
