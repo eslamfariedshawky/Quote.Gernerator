@@ -25,7 +25,8 @@ function randomGenerator () {
 var current=-1 ;
 var random;
 
-
+function clicker()
+{
      random = randomGenerator();
     
     
@@ -38,8 +39,8 @@ var random;
     
     
     
-      document.querySelector('#quote').textContent = quote[random];
-     document.querySelector('#author').textContent = author[random];;
+     quoteText = document.querySelector('#quote').textContent = quote[random];
+     authourText = document.querySelector('#author').textContent = author[random];;
     
     
    
@@ -48,8 +49,4 @@ var random;
      current=random
      
 
-
-
-
-
-
+}
