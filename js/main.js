@@ -38,8 +38,8 @@ var random;
     
     
     
-     quoteText = document.querySelector('#quote').textContent = quote[random];
-     authourText = document.querySelector('#author').textContent = author[random];;
+      document.querySelector('#quote').textContent = quote[random];
+     document.querySelector('#author').textContent = author[random];;
     
     
    
